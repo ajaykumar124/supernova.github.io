@@ -1,0 +1,44 @@
+*{padding:0;margin:0;line-height:normal;font-family:'arial'}ul{list-style-type:none}ul li{display:inline-block}ul li a{display:block;text-decoration:none;}
+.bodyimage{background:url(./bg.jpg) no-repeat;background-size:cover}
+.knowimage{background:url(./bg.jpg) no-repeat;background-size:cover}
+.container, .formarea{padding-left:15px;padding-right:15px}
+.midarea, .headerarea, .formarea{width:100%;float:left;}
+.headerarea{padding-top:30px;padding-bottom:30px;}.logoarea{float:left;text-align:center;}
+.logoarea a{display:inline-block;text-decoration:none;}
+.logoarea a img{border-radius:50%}.logoarea a span{display:block;text-transform:uppercase;color:rgb(255,255,255);font-size:0.90rem;font-weight:700;}
+.naviarea{float:left}.naviarea li+li{margin-left:90px;}.naviarea a{font-size:1.0rem;text-transform:uppercase;color:rgb(255,255,255);}
+.rightcontainer ul li a{background:rgb(255,255,255);border-radius:5px;color:rgb(0,0,0);padding:8px 20px;border:1px solid rgb(255,255,255);transition:all ease-in .4s;}.rightcontainer ul li a:hover, .rightcontainer ul li a:focus, .submitbtn:hover, .submitbtn:focus{background:none;border:1px solid rgb(255,255,255);color:rgb(255,255,255)}
+
+.formarea{padding:11px 23px;border:4px solid rgb(255,255,255);border-radius:15px;margin-top:50px;}
+.formarea h1, .knowmorearea h1{font-size:1.215rem;text-transform:uppercase;color:rgb(255,255,255);text-align:center;margin-bottom:15px;margin-top:15px;}
+.knowmorearea p, .knowmoreul li{color:rgb(255,255,255);text-align:center;font-size:0.90rem;line-height:1.8;}
+.formarea .form-group{width:100%;margin-bottom:1.5rem}
+.formarea select, .formarea input{
+    padding:10px 15px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;box-shadow: none;
+    outline: none;display: block;}
+
+.formarea select{width:99%}.formarea input{width:90%}.submitbtn{width:99%!important;}
+
+.buttonarea a{display:block;text-decoration:none;}.submitbtn{display:inline-block;background:rgb(255,255,255);border-radius:5px;color:rgb(0,0,0);padding:8px 20px;border:1px solid rgb(255,255,255);transition:all ease-in .4s;cursor:pointer}
+.submitbtn{font-weight:700;}
+
+.midarea h1, .midarea h2, .midarea h3, .midarea h4, .midarea h5, .midarea h6{color:rgb(255,255,255);margin-bottom:15px;}
+
+.knowmoreul li img{max-width:33.33%}.knowmoreul li{text-align:left}.knowmoreul li+li{margin-top:35px;}
+
+.knowmoreul li:nth-child(odd) img{float:left;margin-right:15px}
+
+.knowmoreul li:nth-child(even) img{float:right;margin-left:15px;margin-right:0;}
+
+@media (min-width:768px){
+.container{max-width:1170px;margin:0 auto}
+.logoarea{width:14%}.logoarea img{width:34%}.naviarea{width:54%;padding-left:135px;margin-top:15px;text-align:center;}.rightcontainer{text-align:right;float:left;width:20%;margin-top:5px;}.formarea{max-width:30.33%}
+}
